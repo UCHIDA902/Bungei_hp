@@ -1,4 +1,4 @@
-.container{
+.container {
   display:grid;
   grid-template-rows: 80px 600px 90px;
   grid-template-columns: 180px 1fr 160px; 
@@ -14,6 +14,7 @@ header {
   padding: 20px 0;
   background-color: green;
 }
+
 main {
   grid-row-start: 2;
   grid-row-end: 3;
@@ -22,7 +23,8 @@ main {
   text-align: left;
   background-color: skyblue;
 }
-aside .sidebar01{
+
+aside .sidebar01 {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 1;
@@ -30,7 +32,8 @@ aside .sidebar01{
   text-align: center;
   background-color: red;
 }
-aside .sidebar02{
+
+aside .sidebar02 {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 3;
@@ -38,6 +41,7 @@ aside .sidebar02{
   text-align: center;
   background-color: red;
 }
+
 footer {
   grid-row-start: 3;
   grid-row-end: 4;
@@ -47,16 +51,20 @@ footer {
   background-color: red;
 }
 
-
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.italic{
+.italic {
   font-style: italic;  
 }
 
-.underline{
+.underline {
   text-decoration: underline;
-  
+}
+
+h2 {
+  border-left :solid 5px darkcyan;
+  border-bottom: solid 1px gray;
+  padding: 10px;
 }
