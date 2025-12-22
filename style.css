@@ -28,7 +28,7 @@ aside .sidebar01{
   grid-column-start: 1;
   grid-column-end: 2;
   text-align: center;
-  background-color: yellow;
+  background-color: purple;
 }
 aside .sidebar02{
   grid-row-start: 2;
@@ -36,7 +36,7 @@ aside .sidebar02{
   grid-column-start: 3;
   grid-column-end: 4;
   text-align: center;
-  background-color: yellow;
+  background-color: purple;
 }
 footer {
   grid-row-start: 3;
