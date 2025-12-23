@@ -11,7 +11,8 @@ header {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
+  margin: 0;
   background-color: green;
 }
 
