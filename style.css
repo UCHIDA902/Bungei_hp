@@ -21,7 +21,7 @@ main {
   grid-column-start: 2;
   grid-column-end: 3;
   text-align: left;
-  padding: 20px 0;
+  padding: 20px;
   background-color: skyblue;
 }
 
@@ -31,7 +31,6 @@ aside .sidebar01 {
   grid-column-start: 1;
   grid-column-end: 2;
   text-align: center;
-  background-color: red;
 }
 
 aside .sidebar02 {
@@ -40,7 +39,6 @@ aside .sidebar02 {
   grid-column-start: 3;
   grid-column-end: 4;
   text-align: center;
-  background-color: red;
 }
 
 footer {
@@ -68,4 +66,8 @@ h2 {
   border-left :solid 5px darkcyan;
   border-bottom: solid 1px gray;
   padding: 10px;
+}
+
+div {
+  
 }
