@@ -26,7 +26,7 @@ main {
   background-color: skyblue;
 }
 
-aside .sidebar01 {
+leftsidebar {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 1;
@@ -34,7 +34,7 @@ aside .sidebar01 {
   text-align: center;
 }
 
-aside .sidebar02 {
+rightsidebar {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 3;
