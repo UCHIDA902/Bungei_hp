@@ -65,6 +65,7 @@ footer {
 
 h2 {
   border-left :solid 5px darkcyan;
+  background-color: lightskyblue;
   border-bottom: solid 1px gray;
   padding: 10px;
 }
