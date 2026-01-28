@@ -87,11 +87,11 @@ body {
 .talk-boxleft {
   position: relative;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-left: 20px;
   padding: 16px;
   border: 2px solid #000000;
-  border-radius: 8px;
-  background-color: #e2feff;
+  border-radius: 4px;
+  background-color: #ececec;
   text-align: left;
   font-size: 16px;
   font-weight: 400;
@@ -102,25 +102,22 @@ body {
 .talk-boxleft::before {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 25%;
+  top: 50%;
+  left: 0;
   border-style: solid;
-  border-width: 20px 20px 0 0;
-  border-color: #000000 transparent transparent;
-  translate: -50% 100%;
-  transform: skew(-25deg);
-  transform-origin: top;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #000000 transparent transparent;
+  translate: -100% -50%;
 }
 
 .talk-boxleft::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 25%;
+  top: 50%;
+  left: 0;
   border-style: solid;
-  border-width: 15.2px 15.2px 0 0;
-  border-color: #e2feff transparent transparent;
-  translate: calc(-50% - 0.4px) 100%;
-  transform: skew(-25deg);
-  transform-origin: top;
+  border-width: 7.8px 15.5px 7.8px 0;
+  border-color: transparent #ececec transparent transparent;
+  translate: -100% -50%;
 }
+
