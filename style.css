@@ -105,7 +105,7 @@ body {
   top: 50%;
   left: 0;
   border-style: solid;
-  border-width: 8px 15px 8px 0;
+  border-width: 7.5px 15px 7.5px 0;
   border-color: transparent #000000 transparent transparent;
   translate: -100% -50%;
 }
@@ -116,7 +116,7 @@ body {
   top: 50%;
   left: 0;
   border-style: solid;
-  border-width: 7.8px 15.5px 7.8px 0;
+  border-width: 6.4px 12.8px 6.4px 0;
   border-color: transparent #ececec transparent transparent;
   translate: -100% -50%;
 }
