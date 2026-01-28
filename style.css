@@ -87,9 +87,8 @@ body {
 .talk-boxleft {
   position: relative;
   display: inline-block;
-  margin-left: 20px;
-  padding: 4px 16px;
-  border: 2px solid #000000;
+  margin-left: 15px;
+  padding: 12px 16px;
   border-radius: 16px;
   background-color: #ececec;
   text-align: left;
@@ -99,25 +98,15 @@ body {
   color: #000000;
 }
 
-.talk-boxleft::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  border-style: solid;
-  border-width: 7.5px 15px 7.5px 0;
-  border-color: transparent #000000 transparent transparent;
-  translate: -100% -50%;
-}
-
 .talk-boxleft::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 0;
   border-style: solid;
-  border-width: 6.4px 12.8px 6.4px 0;
+  border-width: 7.5px 15px 7.5px 0;
   border-color: transparent #ececec transparent transparent;
   translate: -100% -50%;
+  transform: skew(0, 1deg);
+  transform-origin: right;
 }
-
