@@ -110,7 +110,7 @@ body {
   color: #000000;
 }
 
-.talk-boxleft::after {
+.talk-boxleft::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -139,7 +139,7 @@ body {
   color: #000000;
 }
 
-.talk-boxright::after {
+.talk-boxright::before {
   content: "";
   position: absolute;
   top: 50%;
