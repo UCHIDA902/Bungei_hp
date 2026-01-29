@@ -89,6 +89,11 @@ body {
   flax-direction: row;
 }
 
+.talk-rightside {
+  display: flex;
+  flax-direction: row-reverse;
+}
+
 .talk-boxleft {
   position: relative;
   display: inline-block;
