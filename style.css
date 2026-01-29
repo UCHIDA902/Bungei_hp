@@ -97,7 +97,7 @@ body {
 
 .talkbox.right {
   display: flex;
-  flax-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .talk-boxleft {
