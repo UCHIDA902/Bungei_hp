@@ -84,6 +84,11 @@ body {
   margin-bottom: 0px;
 }
 
+.talkbox {
+  display: flex;
+  margin-bottom: 20px;
+}
+
 .talkbox.left {
   display: flex;
   flax-direction: row;
