@@ -84,12 +84,12 @@ body {
   margin-bottom: 0px;
 }
 
-.talk-leftside {
+.talkbox.left {
   display: flex;
   flax-direction: row;
 }
 
-.talk-rightside {
+.talkbox.right {
   display: flex;
   flax-direction: row-reverse;
 }
