@@ -92,7 +92,7 @@ body {
 
 .talkbox.left {
   display: flex;
-  flax-direction: row;
+  flex-direction: row;
 }
 
 .talkbox.right {
