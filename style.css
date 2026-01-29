@@ -84,6 +84,11 @@ body {
   margin-bottom: 0px;
 }
 
+.talk-leftside {
+  display: flex;
+  flax-direction: row;
+}
+
 .talk-boxleft {
   position: relative;
   display: inline-block;
