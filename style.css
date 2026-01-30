@@ -48,7 +48,8 @@ footer {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
-  background-color: #8CD790;
+  text-color: #FFFFFF;
+  background-color: #1B435D;
 }
 
 .bold {
