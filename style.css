@@ -84,6 +84,7 @@ body {
   margin-bottom: 0px;
 }
 
+/*ここから下はトークボックスです*/
 .talkbox {
   display: flex;
   align-items: flex-start;
@@ -100,6 +101,7 @@ body {
   flex-direction: row-reverse;
 }
 
+/*ここから下はトークボックス（左）です*/
 .talk-boxleft {
   position: relative;
   display: inline-block;
@@ -137,6 +139,7 @@ body {
   translate: -100% -50%;
 }
 
+/*ここから下はトークボックス（右）です*/
 .talk-boxright {
   position: relative;
   display: inline-block;
