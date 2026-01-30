@@ -1,9 +1,10 @@
+
+/*ここから下はレイアウトです*/
 .container {
   display:grid;
   grid-template-rows: 100px auto 90px;
   grid-template-columns: 150px 1fr 300px; 
 }
-
 
 header {
   grid-row-start: 1;
@@ -48,7 +49,7 @@ footer {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
-  text-color: #FFFFFF;
+  color: #FFFFFF;
   background-color: #1B435D;
 }
 
