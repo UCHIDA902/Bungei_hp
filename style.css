@@ -88,10 +88,10 @@ h3 {
   background-color: #FFFFFF;
 }
 
-/*ここから下はアイコンです*/
+/*ここから下はトークボックスのアイコンです*/
 .talkbox .icon {
   width: 40px;
-  height: 40px
+  height: 40px;
 }
   
 /*ここから下はトークボックスです*/
