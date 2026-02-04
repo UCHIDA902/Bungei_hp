@@ -92,8 +92,16 @@ h3 {
 .talkbox .icon {
   width: 40px;
   height: 40px;
+  flex-shrink: 0;
 }
-  
+
+.talk-box .icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /*ここから下はトークボックスです*/
 .talkbox {
   display: flex;
