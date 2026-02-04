@@ -88,6 +88,12 @@ h3 {
   background-color: #FFFFFF;
 }
 
+/*ここから下はアイコンです*/
+.talkbox .icon {
+  width: 40px;
+  height: 40px
+}
+  
 /*ここから下はトークボックスです*/
 .talkbox {
   display: flex;
@@ -180,3 +186,4 @@ h3 {
   border-color: transparent transparent transparent #dedede;
   translate: 100% -50%;
 }
+
