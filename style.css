@@ -95,7 +95,7 @@ h3 {
   flex-shrink: 0;
 }
 
-img {
+.icon img {
     width: 50%;
     height: 50%;
     border-radius: 50%;
