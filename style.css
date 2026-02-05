@@ -95,9 +95,9 @@ h3 {
   flex-shrink: 0;
 }
 
-.talk-box .icon img {
-    width: 25%;
-    height: 25%;
+img {
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     object-fit: cover;
 }
